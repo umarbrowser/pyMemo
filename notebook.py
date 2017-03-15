@@ -1,7 +1,9 @@
+# import datetime module
 import datetime
 
 last_id = 0
 
+#class for note
 class Note:
     def __init__(self, memo, tags=''):
         self.memo = memo
@@ -46,3 +48,4 @@ class Notebook:
     def modify_memo(self, note_id, memo):
 
         self._find_note(note_id).memo = memo
+# try and modify more
