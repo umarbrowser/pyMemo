@@ -1,6 +1,9 @@
+#imports notebook and sys that is operating 
+#system module
 import sys
 from notebook import Notebook, Note
 
+#menu class for displaying interface
 class Menu:
     def __init__(self):
         self.notebook = Notebook()
